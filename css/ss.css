@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav{
+    padding: 1rem;
+    background-color: #9575cd;
+
+    
+}
+
+.nav-con{
+    display: flex;
+}
