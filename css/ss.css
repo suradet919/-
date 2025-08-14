@@ -3,7 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.menu li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: 'prompt', sans-serif;
+    transition: 0.2s ease-in-out;
+}
 .container{
     max-width: 1140px;
     margin: 0 auto;
