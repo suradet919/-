@@ -32,5 +32,14 @@ nav {
 .menu li a {
     color: white;          /* สีตัวหนังสือ */
     text-decoration: none; /* เอาขีดเส้นใต้ลิงก์ออก */
-    font-size: 1.2rem;     /* ขนาดตัวอักษร */
+    font-size: 1.5rem;     /* ขนาดตัวอักษร */
 }
+ .header1 {
+    text-align: center; /* จัดกึ่งกลาง */
+    font-size: 2rem;    /* ขนาดตัวอักษร */
+    color: #000000;     /* สีตัวอักษร */
+    margin-top: 20px;   /* ระยะห่างด้านบน */
+     text-decoration: underline; /* เพิ่มขีดใต้ลิงก์ */
+    font-size: 1.5rem;     
+}
+
