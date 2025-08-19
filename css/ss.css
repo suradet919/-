@@ -42,4 +42,6 @@ nav {
      text-decoration: underline; /* เพิ่มขีดใต้ลิงก์ */
     font-size: 1.5rem;     
 }
-
+.container p {
+    font-size: 50px; /* ขนาดตัวอักษร */
+}
