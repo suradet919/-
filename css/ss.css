@@ -19,6 +19,7 @@ nav {
     display: flex;               /* logo กับ menu อยู่แนวนอน */
     justify-content: space-between; /* เว้นระหว่าง logo กับ menu */
     align-items: center;         /* จัดให้อยู่กลางแนวตั้ง */
+    margin-right: 20px; /* ระยะห่างด้านขวา */
 }
 
 .menu {
