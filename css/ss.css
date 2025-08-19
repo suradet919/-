@@ -26,8 +26,10 @@
 nav{
     padding: 1rem;
     background-color: #9575cd;
-   display : flex ;
-   align-items: center;
+    display : flex ;
+    align-items: center;
+    
+
 
     
 }
