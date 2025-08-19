@@ -10,27 +10,27 @@
     font-family: 'prompt', sans-serif;
     transition: 0.2s ease-in-out;
 }
-.nav-con{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    position: relative;
-    text-decoration: none;
-}
-.container{
-    max-width: 1140px;
-    margin: 0 auto;
-}
-
-nav{
+nav {
     padding: 1rem;
     background-color: #9575cd;
-    display : flex ;
-    align-items: center;
-    
-
-
-    
 }
 
+.nav-con {
+    display: flex;               /* logo กับ menu อยู่แนวนอน */
+    justify-content: space-between; /* เว้นระหว่าง logo กับ menu */
+    align-items: center;         /* จัดให้อยู่กลางแนวตั้ง */
+}
+
+.menu {
+    display: flex;    /* ทำให้ li เรียงแนวนอน */
+    gap: 2rem;        /* ระยะห่างระหว่างเมนู */
+    list-style: none; /* เอาจุดหน้ารายการออก */
+    margin: 0;
+    padding: 0;
+}
+
+.menu li a {
+    color: white;          /* สีตัวหนังสือ */
+    text-decoration: none; /* เอาขีดเส้นใต้ลิงก์ออก */
+    font-size: 1.2rem;     /* ขนาดตัวอักษร */
+}
