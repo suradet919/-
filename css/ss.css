@@ -51,6 +51,11 @@ nav {
 }
 .img-center {
     display: block;
-    margin: 0 auto 100px auto;
+    margin: 0 auto 150px auto;
     margin-top: -70px; /* ระยะห่างด้านบน */
+}
+.img-left {
+    float: left;
+    margin-right: 70px;  /* ระยะห่างด้านขวา */
+    margin-bottom: 20px; /* ระยะห่างด้านล่าง */
 }
