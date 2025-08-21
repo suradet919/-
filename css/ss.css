@@ -49,3 +49,7 @@ nav {
     line-height: 1.5; /* ระยะห่างบรรทัด */
     letter-spacing: 2px; /* ระยะห่างตัวอักษร */
 }
+.img-center {
+    display: block;
+    margin: 0 auto 20px auto;
+}
