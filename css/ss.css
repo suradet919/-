@@ -46,4 +46,6 @@ nav {
 .container p {
    text-align: left; /* จัดข้อความชิดซ้าย */ 
     font-size: 50px; /* ขนาดตัวอักษร */
+    line-height: 1.5; /* ระยะห่างบรรทัด */
+    letter-spacing: 2px; /* ระยะห่างตัวอักษร */
 }
