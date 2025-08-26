@@ -81,3 +81,10 @@ nav {
     margin: 0;                   /* ไม่มีระยะห่างรอบ h2 */
     font-family: 'prompt', sans-serif;
 }
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
