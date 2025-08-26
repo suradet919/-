@@ -140,3 +140,6 @@ nav {
     color: #333;
     margin: 0;
 }
+.container2 {
+    padding: 30px 40px; /* ระยะห่างด้านในกล่อง */
+}
