@@ -90,24 +90,24 @@ nav {
 }
 
 .music-era-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 260px;
-    margin-bottom: 30px;
+    display: flex; /* ทำให้กล่องแสดงผลเป็น flex */
+    flex-direction: column;  /* จัดเรียงแนวตั้ง */
+    align-items: center;  /* จัดให้อยู่กลางแนวนอน */
+    width: 260px;  /* กำหนดความกว้างของกล่อง */
+    margin-bottom: 30px;  /* ระยะห่างด้านล่าง */
 }
 
 
 
 .era-img {
-    width: 240px;
-    height: auto;
-    margin-bottom: 10px;
-    border-radius: 4px;
+    width: 240px;  /* กำหนดความกว้างของภาพ */
+    height: auto;   /* กำหนดความสูงของภาพให้ปรับตามสัดส่วน */
+    margin-bottom: 10px;  /* ระยะห่างด้านล่าง */
+    border-radius: 4px;  /* มุมโค้งของภาพ */
 }
 
 .era-desc {
-    text-align: center;
-    margin-top: 0;
-    font-size: 1.1rem;
+    text-align: center;  /* จัดข้อความกลาง */
+    margin-top: 0;  /* ระยะห่างด้านบน */
+    font-size: 1.1rem;  /* ขนาดตัวอักษร */
 }
