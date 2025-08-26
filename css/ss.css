@@ -81,26 +81,20 @@ nav {
     margin: 0;                   /* ไม่มีระยะห่างรอบ h2 */
     font-family: 'prompt', sans-serif;
 }
-.img-center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.music-era-row {
+.music-era-grid {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 40px; /* ระยะห่างระหว่างรูป */
-    margin-top: 30px;
-    margin-bottom: 30px;
+    gap: 40px 30px; /* ระยะห่างระหว่างกล่อง */
+    margin: 40px 0;
 }
 
 .music-era-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px; /* ปรับขนาดแต่ละกล่อง */
+    width: 260px;
+    margin-bottom: 30px;
 }
 
 .era-title {
@@ -112,9 +106,10 @@ nav {
 }
 
 .era-img {
-    width: 250px;
+    width: 240px;
     height: auto;
     margin-bottom: 10px;
+    border-radius: 4px;
 }
 
 .era-desc {
