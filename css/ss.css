@@ -26,8 +26,8 @@ nav {
     display: flex;    /* ทำให้ li เรียงแนวนอน */
     gap: 2rem;        /* ระยะห่างระหว่างเมนู */
     list-style: none; /* เอาจุดหน้ารายการออก */
-    margin: 0;
-    padding: 0;
+    margin: 0;    /* เอาระยะห่างด้านนอกออก */
+    padding: 0;    /* เอาระยะห่างด้านในออก */
 }
 
 .menu li a {
