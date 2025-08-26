@@ -58,6 +58,7 @@ nav {
 }
 
    /*หน้าประวัติ*/
+
 .container2 p {
     text-align: justify;
     font-size: 1.2rem; /* ปรับขนาดตามต้องการ */
@@ -142,4 +143,52 @@ nav {
 }
 .container2 {
     padding: 30px 40px; /* ระยะห่างด้านในกล่อง */
+}
+
+
+/*หน้าวิธีเล่น*/
+.container2 {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px 40px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.play-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'prompt', sans-serif;
+}
+
+.play-date {
+    color: #888;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.play-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.play-detail {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.play-img {
+    width: 180px;
+    border-radius: 4px;
+}
+
+.play-video {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
