@@ -111,3 +111,38 @@ nav {
     margin-top: 0;  /* ระยะห่างด้านบน */
     font-size: 1.1rem;  /* ขนาดตัวอักษร */
 }
+.play-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'prompt', sans-serif;
+}
+
+.play-section {
+    background: #f5e6c5; /* สีพื้นหลังอ่อน */
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.play-img {
+    display: block;
+    margin: 0 auto 10px auto;
+    width: 220px;
+    border-radius: 4px;
+}
+
+.play-img-desc {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    font-family: 'prompt', sans-serif;
+}
+
+.play-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    margin: 0;
+}
