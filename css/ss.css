@@ -67,3 +67,17 @@ nav {
 .container2 h2 {
     margin-left: 40px; /* ขยับหัวข้อไปทางขวา */
 }
+.bar-title {
+    background-color: #444;      /* สีพื้นหลังเทา */
+    color: #fff;                 /* สีตัวอักษรขาว */
+    text-align: center;          /* จัดข้อความกลาง */
+    padding: 20px 0;             /* ระยะห่างบน-ล่าง */
+    margin-bottom: 20px;         /* ระยะห่างด้านล่าง */
+}
+
+.bar-title h2 {
+    font-weight: bold;           /* ตัวหนา */
+    font-size: 2rem;             /* ขนาดตัวอักษร */
+    margin: 0;                   /* ไม่มีระยะห่างรอบ h2 */
+    font-family: 'prompt', sans-serif;
+}
