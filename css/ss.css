@@ -56,6 +56,10 @@ nav {
     margin-top: -40px;
     margin-bottom: 20px;
 }
+body {
+    background: url('../รูป/พื้นหลัง.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
 
    /*หน้าประวัติ*/
 
