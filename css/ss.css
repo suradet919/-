@@ -232,3 +232,29 @@ body {
 }
 /*หน้า3*/
 /*ไม่มีหรอไม่บอกไม่มีนะครับอ้วนพิมทำไมไม่รู้*/
+
+
+
+
+#sky {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 999; /* ให้โน้ตอยู่บนสุด */
+}
+
+.note {
+  position: absolute;
+  top: -10vh;
+  font-size: 24px;
+  opacity: 0.9;
+  animation-name: fall;
+  animation-timing-function: linear;
+}
+
+@keyframes fall {
+  0%   { transform: translateY(-10vh) rotate(0deg); opacity: 0; }
+  10%  { opacity: 0.9; }
+  100% { transform: translateY(110vh) rotate(360deg); opacity: 0; }
+}
