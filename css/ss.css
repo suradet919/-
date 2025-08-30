@@ -192,3 +192,37 @@ nav {
     justify-content: center;
     margin-top: 20px;
 }
+.drum-set-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin: 40px 0;
+}
+
+.drum-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.drum-img {
+    width: 140px;
+    height: auto;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.drum-label {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 4px;
+    text-align: center;
+    font-family: 'prompt', sans-serif;
+}
+
+.drum-video {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
