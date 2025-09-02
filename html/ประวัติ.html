@@ -103,13 +103,13 @@
     el.style.left = `${left}vw`;
     el.style.fontSize = size + 'px';
     el.style.animationDuration = duration + 's';
-    el.style.color = `hsl(${hue} 80% 70%)`;
+    el.style.color = `hsl(${hue} 100% 55%)`;
 
     el.addEventListener('animationend', () => el.remove());
     sky.appendChild(el);
   }
 
-  setInterval(spawnNote, 400);
+  setInterval(spawnNote, 250);
 </script>
 </body>
 </html>
