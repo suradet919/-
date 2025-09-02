@@ -72,8 +72,9 @@ body {
     text-align: justify;
     font-size: 1.2rem; /* ปรับขนาดตามต้องการ */
     margin: 30px 80px; /* เพิ่มระยะขอบซ้าย-ขวา */
-    line-height: 1.8;  /* เพิ่มระยะห่างบรรทัด */
+
 }
+
 .container2 h2 {
     margin-left: 40px; /* ขยับหัวข้อไปทางขวา */
 }
