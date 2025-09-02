@@ -258,3 +258,23 @@ body {
   10%  { opacity: 0.9; }
   100% { transform: translateY(110vh) rotate(360deg); opacity: 0; }
 }
+/* ...existing code... */
+
+/* เมนูเด้งและเปลี่ยนสีเมื่อ hover */
+.menu li a {
+    transition: 
+        background 0.2s,
+        color 0.2s,
+        transform 0.2s;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.menu li a:hover,
+.menu li a:focus {
+    color: #ff0263;           /* สีตัวอักษรตอน hover */
+    transform: scale(1.12);   /* เด้งขยายขึ้น */
+    box-shadow: 0 2px 12px rgba(106,27,154,0.15);
+}
+
+/* ...existing code... */
