@@ -33,30 +33,8 @@
                 โดยทั่วไปแล้ว เครื่องดนตรีทุกชนิดที่สามารถสร้างเสียงดนตรีได้ จะถูกเรียกว่าเครื่องดนตรีทั้งสิ้น ผู้ที่เล่นเครื่องดนตรีเรียกว่านักดนตรี </p>
                 <br>
                 <img src="../รูป/ซ้าย.png" alt="ซ้าย" class="img-center" style="width: 550px;">
-   <script>
-  const noteChars = ["♪","♫","♩","♬","♭","♯"];
-  const sky = document.getElementById('sky');
-
-  function spawnNote() {
-    const el = document.createElement('div');
-    el.className = 'note';
-    el.textContent = noteChars[Math.floor(Math.random() * noteChars.length)];
-
-    const left = Math.random() * 100;
-    const size = 18 + Math.random() * 36;
-    const duration = 4 + Math.random() * 6;
-    const hue = Math.floor(Math.random() * 360);
-
-    el.style.left = `${left}vw`;
-    el.style.fontSize = size + 'px';
-    el.style.animationDuration = duration + 's';
-    el.style.color = `hsl(${hue} 100% 55%)`;
-
-    el.addEventListener('animationend', () => el.remove());
-    sky.appendChild(el);
-  }
-
-  setInterval(spawnNote, 250);
+                
+   <script src="../js/js.js"></script>
 </script>             
 </body>
 </html>
