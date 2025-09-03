@@ -45,9 +45,14 @@ nav {
 }
 .container p {
    text-align: left; /* จัดข้อความชิดซ้าย */ 
-    font-size: 50px; /* ขนาดตัวอักษร */
+    font-size: 40px; /* ขนาดตัวอักษร */
     line-height: 1.5; /* ระยะห่างบรรทัด */
     letter-spacing: 2px; /* ระยะห่างตัวอักษร */
+    border-style: solid; /* เส้นขอบ */
+    background-color: #ffffff; /* สีพื้นหลัง */
+    border-radius: 10px; /* มุมโค้ง */
+     padding: 24px; /* ระยะห่างด้านในกล่อง */
+    margin: 20px; /* ระยะห่างด้านนอกกล่อง */
 }
 .img-center {
     display: block;
@@ -67,8 +72,9 @@ body {
     text-align: justify;
     font-size: 1.2rem; /* ปรับขนาดตามต้องการ */
     margin: 30px 80px; /* เพิ่มระยะขอบซ้าย-ขวา */
-    line-height: 1.8;  /* เพิ่มระยะห่างบรรทัด */
+
 }
+
 .container2 h2 {
     margin-left: 40px; /* ขยับหัวข้อไปทางขวา */
 }
@@ -258,3 +264,23 @@ body {
   10%  { opacity: 0.9; }
   100% { transform: translateY(110vh) rotate(360deg); opacity: 0; }
 }
+/* ...existing code... */
+
+/* เมนูเด้งและเปลี่ยนสีเมื่อ hover */
+.menu li a {
+    transition: 
+        background 0.2s,
+        color 0.2s,
+        transform 0.2s;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.menu li a:hover,
+.menu li a:focus {
+    color: #ff0263;           /* สีตัวอักษรตอน hover */
+    transform: scale(1.12);   /* เด้งขยายขึ้น */
+    box-shadow: 0 2px 12px rgba(106,27,154,0.15);
+}
+
+/* ...existing code... */
